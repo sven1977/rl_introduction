@@ -154,7 +154,7 @@ if __name__ == "__main__":
     epsilon = 0.1
 
     # do 100 iterations of Q-learning
-    for t in range(3000):
+    for t in range(5000):
         s = mdp.s
         print("s=", s)
         a_set = mdp.get_action_set()
