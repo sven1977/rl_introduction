@@ -140,7 +140,7 @@ class QTable(object):
         """
         print("[s] /[a]  | [q-value]\n-----------------------")
         for (s, a), v in  self.table.items():
-            print("{!s:>4}/{!s:4} | {}".format(s, a, v))
+            print("{!s:>4}/{!s:4} | {:.1f}".format(s, a, v))
 
 
 if __name__ == "__main__":
